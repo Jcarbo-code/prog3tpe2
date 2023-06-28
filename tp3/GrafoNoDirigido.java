@@ -1,4 +1,4 @@
-package programacion3.tp;
+package programacion3.tp3;
 
 public class GrafoNoDirigido<T> extends GrafoDirigido<T> {
 

@@ -1,19 +1,15 @@
 package programacion3.tpe;
 
-import programacion3.tp.GrafoDirigido;
-import programacion3.tp.Arco;
+import programacion3.tp3.GrafoDirigido;
+import programacion3.tp3.Arco;
 
 import java.util.*;
 
 public class Main {
 
-    private static List<Integer> tunnels = new ArrayList<>();
-    private static List<Integer> bestSolution = new ArrayList<>();
-    private static int minTotalDistance = Integer.MAX_VALUE;
-
     public static void main(String[] args) {
 
-        String path = "datasets/dataset3.txt";
+        String path = "./tpe/datasets/dataset3.txt";
         CSVReader reader = new CSVReader(path);
         reader.read();
 

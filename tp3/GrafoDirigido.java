@@ -1,4 +1,4 @@
-package programacion3.tp;
+package programacion3.tp3;
 
 import java.util.*;
 

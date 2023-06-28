@@ -2,7 +2,7 @@ package programacion3.tpe;
 
 import java.util.*;
 
-import programacion3.tp.Grafo;
+import programacion3.tp3.Grafo;
 
 public class ServicioCaminos {
 
